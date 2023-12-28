@@ -1,0 +1,11 @@
+/* Your styles go here */
+body {
+    /* Set background, fonts, etc. */font:100px
+  }
+  
+  .container {
+    /* Style the main container */width:30px
+  }
+  
+  /* Additional styles for header, main, footer, cards, etc. */
+  
