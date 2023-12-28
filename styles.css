@@ -1,11 +1,33 @@
-/* Your styles go here */
-body {
-    /* Set background, fonts, etc. */font:100px
+/* Style the navbar container */
+.navbar {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
   }
   
-  .container {
-    /* Style the main container */width:30px
+  /* Style the navigation links */
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
   
-  /* Additional styles for header, main, footer, cards, etc. */
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  /* Align the navigation links to the top right corner */
+  .navbar nav {
+    flex-grow: 1;
+    text-align: right;
+  }
   
